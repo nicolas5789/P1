@@ -1,0 +1,254 @@
+body {
+	width: 100%;
+	height: 1024px;
+	
+}
+
+
+/*barre supérieure*/
+
+#barreFixe {
+	border: 1px solid red;
+	position: fixed;
+	display: flex;
+	flex-direction: space-between;
+	width: 100%;
+	min-height: 80px;
+	background-color: white;
+	top: 0;
+	
+	z-index: 10;
+	}
+
+#barreFixe li{
+	display: inline-block;
+
+}
+
+/*fin barre supérieure*/
+
+
+
+
+
+#enTete {
+	position: relative;
+	top: 85px;
+	z-index: 7;
+	border: 1px solid blue;
+	background-size: cover;
+	height: 100%;
+	padding-bottom: 7%;
+	z-index: 8;
+}
+
+#slogan {
+	margin-top: 5%;
+	z-index: 7;
+}
+
+span {
+	color : #56C7D6 ;
+}
+
+#slogan p, #slogan h1 {
+	color : white;
+}
+
+#info {
+	border: 1px solid white;
+	width: 8%;
+	min-width: 100px;
+	min-height: 40px;
+	text-align: center;
+	background-color: #56C7D6;
+	color: white;
+}
+
+#slider {
+	z-index: 1;
+	position: absolute;
+	top:85px;
+	
+}
+
+/*début slider*/
+
+#slider img {
+	float : left; /*aligne horizontalement*/
+	width: 50%; /*réduction pour 2 photos*/
+}
+
+#slides {
+	width: 200%; /*taille pour 2 photos*/
+	animation: glisse 30s infinite; /*mise en mouvement*/
+}
+
+#slider {
+	width: 100%; /*Délimite la taille du slider*/
+	overflow: hidden; /*cache ce qui dépasse*/
+} 
+
+@keyframes glisse {
+	0% {transform : translateX(0);}
+	33% {transform : translateX(-50%);}	
+	66% {transform : translateX(-50%);}
+	100% {transform : translateX(0);}
+
+}
+
+/*fin du slider*/
+
+
+
+/*fin de l'en-tête*/
+
+
+
+
+
+
+
+
+
+
+/*services*/
+#ancreService {
+
+	position: relative;
+	top : -70px;
+}
+
+#services {
+	margin-top: 20%;
+}
+
+#titreServices {
+	text-align: center;
+}
+
+#align1 {
+	display: flex;
+}
+
+#imagePc img {
+	width: 100%;
+	border: 1px solid green;
+}
+
+
+
+
+/*projets*/
+#ancreProjets {
+	position: relative;
+	top: -65px;
+}
+
+#projets {
+	background-color: #F5F5F5;
+}
+
+#titreProjets {
+	text-align: center;
+}
+
+#projets li {
+	display: inline-block;
+
+}
+#projets ul {
+	text-align: center;
+	color : blue;
+}
+
+#ligneItem1, #ligneItem2 {
+	display: flex;
+	width: 100%;
+	border: 1px solid red;
+}
+#ligneItem1 img, #ligneItem2 img {
+	width: 80%;
+}
+
+
+
+
+
+/*formulaire*/
+
+#message {
+	width: 90%;
+	
+	border: 1px solid green; 
+	overflow: scroll;
+}
+
+#formulaire {
+	position: relative;
+	border: 1px solid yellow;
+	width: 25%;
+	left: 60%;
+	margin-top: 50px;
+	z-index: 5;
+	background-color: #F2F6F8;
+	opacity: 0.8;
+	
+
+
+}
+
+/*carte*/
+#ancreContact {
+	position: relative;;
+	top : -65px;
+}
+
+#carte {
+	position: relative;
+	border: 1px solid red;
+	margin-left: 4%;
+	width: 90%;
+	height: 85%;
+	bottom: 700px;
+	opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

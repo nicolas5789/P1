@@ -1,0 +1,58 @@
+header {
+	display: flex;
+	border: 1px solid black ;
+	position: fixed;
+	min-width: 100%;
+	height: auto;
+	background: white;
+	left: 0;
+
+}
+
+#menu {
+	position: absolute;
+	right : 5%;
+	height: 50%;
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+}
+
+#menu li {
+	display: inline;
+}
+
+
+
+
+
+
+section {
+	border: 1px solid black;
+}
+
+#titreServices {
+	text-align: center;
+}
+
+#align1 {
+	display: flex;
+}
+
+#slogan {
+	border: 1px solid black;
+	height: 200px;
+	position: absolute;
+	top : 20%;
+}
+
+
+/*essai slider*/
+
+#slider {
+	overflow: hidden;
+	height: 550px;
+}
+
+
+
